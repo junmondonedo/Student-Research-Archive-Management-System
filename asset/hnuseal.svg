@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Holy Name University seal</title>
+  <desc id="desc">A simple green and gold university seal.</desc>
+  <circle cx="100" cy="100" r="94" fill="#f6efdb" stroke="#b8912f" stroke-width="6"/>
+  <circle cx="100" cy="100" r="72" fill="#245a44" stroke="#f6efdb" stroke-width="3"/>
+  <path d="M100 45v110M63 82h74M73 122h54" stroke="#f6efdb" stroke-width="8" stroke-linecap="round"/>
+  <path d="M48 58c14-12 32-19 52-19s38 7 52 19M48 142c14 12 32 19 52 19s38-7 52-19" fill="none" stroke="#b8912f" stroke-width="4"/>
+  <text x="100" y="31" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#245a44">HNU</text>
+  <text x="100" y="181" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" letter-spacing="1" fill="#245a44">HOLY NAME</text>
+</svg>

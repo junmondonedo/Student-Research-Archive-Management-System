@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Librarian · SRAMS</title>
+    <link rel="icon" href="asset/hnuseal.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="asset/style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar" id="sidebar">
+        <div class="brand">
+          <div class="brand-mark">
+            <img src="asset/hnuseal.svg" alt="Holy Name University seal" />
+          </div>
+          <div><strong>SRAMS</strong><span>HNU Research Archive</span></div>
+        </div>
+        <div class="role-chip">Signed in as<b id="roleName">&mdash;</b></div>
+        <nav class="nav" id="navList" aria-label="Main navigation"></nav>
+        <div class="sidebar-foot">
+          <div class="avatar" id="avatarTxt"></div>
+          <div class="who"><b id="whoName"></b><span id="whoRole"></span></div>
+          <button
+            class="out"
+            onclick="logout()"
+            title="Sign out"
+            aria-label="Sign out"
+          >
+            &#9099;
+          </button>
+        </div>
+      </aside>
+      <div class="scrim" id="scrim" onclick="closeSidebar()"></div>
+
+      <main class="main">
+        <button
+          class="btn btn-ghost btn-sm menu-toggle"
+          onclick="openSidebar()"
+        >
+          &#9776; Menu
+        </button>
+        <div id="pages"></div>
+      </main>
+    </div>
+
+    <script src="asset/app.js"></script>
+    <script>
+      initApp("librarian");
+    </script>
+  </body>
+</html>
